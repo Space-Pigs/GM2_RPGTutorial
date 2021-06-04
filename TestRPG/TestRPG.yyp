@@ -1,17 +1,24 @@
 {
   "resources": [
+    {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"order":1,},
+    {"id":{"name":"rInit","path":"rooms/rInit/rInit.yy",},"order":2,},
     {"id":{"name":"sPlayerRun","path":"sprites/sPlayerRun/sPlayerRun.yy",},"order":4,},
     {"id":{"name":"sCol","path":"sprites/sCol/sCol.yy",},"order":5,},
-    {"id":{"name":"tCol","path":"tilesets/tCol/tCol.yy",},"order":0,},
+    {"id":{"name":"tTiles","path":"tilesets/tTiles/tTiles.yy",},"order":0,},
+    {"id":{"name":"tCol","path":"tilesets/tCol/tCol.yy",},"order":1,},
     {"id":{"name":"Grass","path":"sprites/Grass/Grass.yy",},"order":0,},
+    {"id":{"name":"rVillage","path":"rooms/rVillage/rVillage.yy",},"order":1,},
     {"id":{"name":"spr_man","path":"sprites/spr_man/spr_man.yy",},"order":1,},
+    {"id":{"name":"Camera","path":"scripts/Camera/Camera.yy",},"order":2,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":0,},
     {"id":{"name":"PlayerMovement","path":"scripts/PlayerMovement/PlayerMovement.yy",},"order":1,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":3,},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":0,},
+    {"id":{"name":"sTiles","path":"sprites/sTiles/sTiles.yy",},"order":7,},
     {"id":{"name":"sPlayerRoll","path":"sprites/sPlayerRoll/sPlayerRoll.yy",},"order":6,},
     {"id":{"name":"spr_chickWalk","path":"sprites/spr_chickWalk/spr_chickWalk.yy",},"order":2,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"rParent","path":"rooms/rParent/rParent.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -27,7 +34,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rInit","path":"rooms/rInit/rInit.yy",},},
+    {"roomId":{"name":"rParent","path":"rooms/rParent/rParent.yy",},},
+    {"roomId":{"name":"rVillage","path":"rooms/rVillage/rVillage.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -44,6 +53,7 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Managers.yy","order":3,"resourceVersion":"1.0","name":"Managers","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

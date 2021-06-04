@@ -11,4 +11,4 @@ inputDirection = point_direction(0,0,keyRight-keyLeft, keyDown-keyUp);
 hasMoveInput = (keyRight - keyLeft != 0) || (keyDown - keyUp != 0);
 #endregion
 
-script_execute(state);
+if(!global.GamePaused) script_execute(state);

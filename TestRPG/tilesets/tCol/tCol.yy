@@ -1,5 +1,4 @@
 {
-  "name": "tCol",
   "spriteId": {
     "name": "sCol",
     "path": "sprites/sCol/sCol.yy",
@@ -37,10 +36,11 @@
     "TileSerialiseData": [],
   },
   "parent": {
-    "name": "Timelines",
-    "path": "folders/Timelines.yy",
+    "name": "Tile Sets",
+    "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
+  "name": "tCol",
   "tags": [],
   "resourceType": "GMTileSet",
 }
