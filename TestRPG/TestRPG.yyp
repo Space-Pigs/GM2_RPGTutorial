@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"order":1,},
     {"id":{"name":"rInit","path":"rooms/rInit/rInit.yy",},"order":2,},
+    {"id":{"name":"spr_textBoxes","path":"sprites/spr_textBoxes/spr_textBoxes.yy",},"order":8,},
     {"id":{"name":"sPlayerRun","path":"sprites/sPlayerRun/sPlayerRun.yy",},"order":4,},
     {"id":{"name":"sCol","path":"sprites/sCol/sCol.yy",},"order":5,},
     {"id":{"name":"tTiles","path":"tilesets/tTiles/tTiles.yy",},"order":0,},
@@ -13,11 +14,14 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":0,},
     {"id":{"name":"PlayerMovement","path":"scripts/PlayerMovement/PlayerMovement.yy",},"order":1,},
+    {"id":{"name":"f_main","path":"fonts/f_main/f_main.yy",},"order":0,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":3,},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":0,},
     {"id":{"name":"sTiles","path":"sprites/sTiles/sTiles.yy",},"order":7,},
     {"id":{"name":"sPlayerRoll","path":"sprites/sPlayerRoll/sPlayerRoll.yy",},"order":6,},
+    {"id":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"order":4,},
     {"id":{"name":"spr_chickWalk","path":"sprites/spr_chickWalk/spr_chickWalk.yy",},"order":2,},
+    {"id":{"name":"UIHelpers","path":"scripts/UIHelpers/UIHelpers.yy",},"order":3,},
     {"id":{"name":"rParent","path":"rooms/rParent/rParent.yy",},"order":0,},
   ],
   "Options": [
