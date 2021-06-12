@@ -19,3 +19,45 @@ function NineSliceBoxStretched(sprite, x1, y1, x2, y2, spriteIndex)
 	draw_sprite_part_ext(sprite, spriteIndex, _size, 0, 1, _size, x1+_size, y1, _w-(_size*2), 1, c_white, 1);
 	draw_sprite_part_ext(sprite, spriteIndex, _size, _size*2, 1, _size, x1+_size, y1+_h-(_size), _w-(_size*2), 1, c_white, 1);
 }
+
+
+function NewTextBox()
+{
+	var _obj;
+	if(instance_exists(obj_text))
+	{
+		_obj = obj_textQueued;
+	}
+	else
+	{
+		_obj = obj_text;
+	}
+	with(instance_create_layer(0,0,"Instances", _obj))
+	{
+		textContent = argument[0];
+		if(instance_exists(other))
+		{
+			originInstance = other.id;
+		}
+		else
+		{
+			originInstance = noone;
+		}
+		if(argument_count > 1)
+		{
+			textBoxSpriteIndex = argument[1];
+		}
+		else
+		{
+			textBoxSpriteIndex = 1;
+		}
+	}
+	with(obj_player)
+	{
+		if(state != PlayerStateLocked)
+		{
+			lastState = state;
+			state = PlayerStateLocked;
+		}
+	}
+}

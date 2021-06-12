@@ -1,3 +1,7 @@
+function PlayerStateLocked()
+{
+	//Do nothing
+}
 
 function PlayerStateFree()
 {

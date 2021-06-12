@@ -9,5 +9,5 @@ x2Target = RESOLUTION_W;
 lerpProgress = 0;
 textProgress = 0;
 
-textContent = "Default message text";
+//textContent not defined to prevent overwriting the set text
 textBoxSpriteIndex = 0;

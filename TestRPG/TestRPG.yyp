@@ -7,6 +7,7 @@
     {"id":{"name":"sCol","path":"sprites/sCol/sCol.yy",},"order":5,},
     {"id":{"name":"tTiles","path":"tilesets/tTiles/tTiles.yy",},"order":0,},
     {"id":{"name":"tCol","path":"tilesets/tCol/tCol.yy",},"order":1,},
+    {"id":{"name":"obj_textQueued","path":"objects/obj_textQueued/obj_textQueued.yy",},"order":5,},
     {"id":{"name":"Grass","path":"sprites/Grass/Grass.yy",},"order":0,},
     {"id":{"name":"rVillage","path":"rooms/rVillage/rVillage.yy",},"order":1,},
     {"id":{"name":"spr_man","path":"sprites/spr_man/spr_man.yy",},"order":1,},
